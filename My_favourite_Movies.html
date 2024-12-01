@@ -1,10 +1,83 @@
-<h1>My Favorite Movies</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Favorite Movies</title>
+  <style>
+    /* General styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f3f4f7, #ffffff);
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      line-height: 1.6;
+    }
 
-<hr>
+    h1 {
+      font-size: 2.5rem;
+      color: #2575fc;
+      margin-bottom: 20px;
+    }
 
-<h2>Top gun</h2>
-<p>this is an thriller movie to watch</p>
-<h2>Tazen the wonder car</h2>
-<p>it is my first movie as kid that i loved it's action and story'</p>
-<h2>3 idiotes</h2>
-<p>it is an all gener movie specially on fun movements in engineering life of these 3 characters</p>
+    hr {
+      border: 0;
+      height: 3px;
+      background: linear-gradient(to right, #ff7e5f, #feb47b);
+      margin: 20px auto;
+      width: 50%;
+      border-radius: 10px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: #6a11cb;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #555;
+      max-width: 600px;
+      margin: 10px auto;
+      padding: 10px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    p::first-letter {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #2575fc;
+    }
+
+    /* Responsive design */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+        padding: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>My Favorite Movies</h1>
+  <hr>
+  <h2>Top Gun</h2>
+  <p>This is a thrilling movie to watch.</p>
+  <h2>Taarzan: The Wonder Car</h2>
+  <p>It was my first favorite movie as a kid. I loved its action and story.</p>
+  <h2>3 Idiots</h2>
+  <p>It is a multi-genre movie, focusing on the fun moments in the engineering life of three characters.</p>
+</body>
+</html>
